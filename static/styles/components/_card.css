@@ -1,0 +1,8 @@
+.card_title {
+    border-bottom: 1px solid var(--blue);
+    margin-bottom: 20px;
+}
+.card_graph {
+    max-width: 400px;
+    font-size: 25px;
+}

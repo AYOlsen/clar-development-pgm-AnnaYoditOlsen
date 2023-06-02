@@ -2,6 +2,8 @@
   "name": "project-2023-gsap-starter",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
+  "source": "index.html",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
@@ -15,5 +17,8 @@
     "postcss": "^8.4.23",
     "postcss-modules": "^4.3.1",
     "postcss-nesting": "^11.2.2"
+  },
+  "dependencies": {
+    "gsap": "^3.11.5"
   }
 }
