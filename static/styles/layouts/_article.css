@@ -1,0 +1,28 @@
+.background-color {
+    padding-bottom: 150px;
+}
+
+.bg--light {
+    background-color: var(--light);
+    color: var(--blue);
+}
+
+.bg--blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.bg--green {
+    background-color: var(--dark-green);
+    color: var(--light-green);
+}
+
+.bg--brown {
+    background-color: var(--brown);
+    color: var(--pink);
+}
+
+.bg--yellow {
+    background-color: var(--yellow);
+    padding-top: 100px;
+}

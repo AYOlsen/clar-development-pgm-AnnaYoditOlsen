@@ -1,0 +1,10 @@
+.team-member {
+    border-bottom: 1px solid var(--pink);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    & > span {
+        font-family:'Akzidenz-Grotesk BQ';
+    }
+}
+

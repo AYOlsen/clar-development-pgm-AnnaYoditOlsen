@@ -1,8 +1,40 @@
-.card_title {
-    border-bottom: 1px solid var(--blue);
-    margin-bottom: 20px;
-}
-.card_graph {
+.card {
     max-width: 400px;
-    font-size: 25px;
+    & .card_title {
+        border-bottom: 1px solid var(--blue);
+        margin-bottom: 20px;
+        font-size: 0.85rem;
+    }
+    & .card_graph {
+        font-size: 1.25rem;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.card--center {
+    margin-bottom: 100px;
+    & .card-border--white {
+        border-bottom: 1px solid var(--white);
+    }
+}
+
+.card--list {
+    list-style: none;
+    max-width: 500px;
+    & li {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.card--left {
+    margin-left: 100px;
+    & .card-border--green {
+        border-bottom: 1px solid var(--light-green);
+    }
 }
