@@ -1,16 +1,27 @@
 .title {
-    font-size: 9rem;
+    height: auto;
     line-height: 1;
-    padding: 50px 15px 150px 15px;
-    max-width: 1370px;
-    & span:nth-child(even) {
-        font-family:'Canela Light Italic';
+    padding: 20px 10px;
+    
+    & h2 {
+        overflow: hidden;
+        font-size: 8rem;
+        & span {
+            display: inline-block;
+            transform: translateY(100%);
+        }
+    }
+    
+    & h2:nth-child(even) {
+        font-family: 'Canela Light Italic';
         display: flex;
         justify-content: flex-end;
     }
 }
 
+
 .title--center {
     margin: 0 auto;
 }
+
 
