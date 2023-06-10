@@ -18,6 +18,10 @@
     }
 }
 
+.title--bg-white {
+    float: right;
+}
+
 .title--center {
     margin: 0 auto;
 }

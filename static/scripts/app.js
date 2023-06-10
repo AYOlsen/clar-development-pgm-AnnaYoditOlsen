@@ -2,6 +2,7 @@ import './animation/horizontal.js';
 import './animation/scroll.js';
 import './animation/fade.js';
 import './animation/slide-in.js';
+import './animation/tween.js';
 
 
 import gsap from 'gsap';
