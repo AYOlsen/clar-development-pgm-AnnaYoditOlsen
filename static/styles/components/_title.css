@@ -2,8 +2,8 @@
     height: auto;
     line-height: 1;
     padding: 20px 10px;
-    
-    & h2 {
+    & > span {
+        display: block;
         overflow: hidden;
         font-size: 8rem;
         & span {
@@ -11,17 +11,13 @@
             transform: translateY(100%);
         }
     }
-    
-    & h2:nth-child(even) {
+    & span:nth-child(even) {
         font-family: 'Canela Light Italic';
         display: flex;
         justify-content: flex-end;
     }
 }
 
-
 .title--center {
     margin: 0 auto;
 }
-
-

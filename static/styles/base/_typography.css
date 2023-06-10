@@ -43,6 +43,11 @@ h1 {
     font-family:'Canela Regular';
 }
 
+h2 {
+  font-family:'Canela Light';
+  font-size: 8rem;
+}
+
 span {
   font-family:'Canela Light';
 }

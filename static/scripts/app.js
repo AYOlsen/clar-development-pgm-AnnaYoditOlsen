@@ -10,9 +10,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 import pinElements from './animation/horizontal.js';
 import fadeElements from './animation/fade.js';
-import {staggerLists}  from './animation/stagger.js';
+import fadeList from './animation/list.js';
 import slideInUp  from './animation/slide-in.js';
+import {staggerLists}  from './animation/stagger.js';
 pinElements();
 fadeElements();
-staggerLists();
-
+fadeList();
+slideInUp();
