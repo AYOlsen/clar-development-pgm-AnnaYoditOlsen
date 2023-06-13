@@ -7,7 +7,7 @@ const tween = gsap.to($button, {
     rotate: 10,
     scale: 0.8,
     duration: 0.2,
-    ease: 'bounce.inOut',
+    ease: 'bounce.in',
 });
 
 hover.addEventListener('mouseover', () => {

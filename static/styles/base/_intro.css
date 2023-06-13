@@ -2,10 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-.intro {
-    margin-bottom: 150px;
-}
-
 .intro_content {
     display: flex;
     align-items: center;
@@ -61,7 +57,17 @@ body {
 
 .display-flex-content {
     display: flex;
-    
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.dispaly--center {
+    align-items: center;
+}
+
+.image {
+    display: block;
+    width: 30%;
 }
 
 /* contact pagina */
@@ -90,3 +96,4 @@ body {
     }
     
 }
+

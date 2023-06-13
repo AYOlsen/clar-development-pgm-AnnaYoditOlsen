@@ -10,6 +10,7 @@ const fadeElements = () => {
             scrollTrigger: {
                 trigger: $fadeElement,
                 start: 'top 80%',
+                toggleActions: 'play none none reverse'
             }
         })
     })
