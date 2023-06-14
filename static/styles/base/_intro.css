@@ -13,11 +13,16 @@ body {
 
 .brand {
     font-size: 230px;
-    line-height: 1;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    margin-top: -50px;
-    
+    margin-top: -80px;
+    background-color: var(--light);
+}
+
+.display-flex-content {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
 }
 
 .logo  {
@@ -53,13 +58,10 @@ body {
 
 .lottie {
     width: 50%;
+    
 }
 
-.display-flex-content {
-    display: flex;
-    margin-top: 100px;
-    justify-content: space-around;
-}
+
 
 .dispaly--center {
     align-items: center;
