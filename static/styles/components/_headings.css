@@ -1,4 +1,4 @@
-.slide-in {
+.heading {
     height: auto;
     line-height: 1;
     padding: 1.25rem .62rem;
@@ -18,10 +18,10 @@
     }
 }
 
-.title--bg-white {
+.heading--bg-white {
     float: right;
 }
 
-.title--center {
+.heading--center {
     margin: 0 auto;
 }
