@@ -1,8 +1,8 @@
 .card {
-    max-width: 400px;
+    max-width: 25rem;
     & .card_title {
-        border-bottom: 1px solid var(--blue);
-        margin-bottom: 20px;
+        border-bottom: .06rem solid var(--blue);
+        margin-bottom: 1.25rem;
         font-size: 0.85rem;
     }
     & .card_graph {
@@ -13,28 +13,28 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    margin-right: 150px;
+    margin-right: 9.37rem;
 }
 
 .card--center {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     & .card-border--white {
-        border-bottom: 1px solid var(--white);
+        border-bottom: .06rem solid var(--white);
     }
 }
 
 .card--list {
     list-style: none;
-    max-width: 500px;
+    max-width: 31.25rem;
     & li {
         display: flex;
-        gap: 5px;
+        gap: .31rem;
     }
 }
 
 .card--left {
-    margin-left: 100px;
+    margin-left: 6.25rem;
     & .card-border--green {
-        border-bottom: 1px solid var(--light-green);
+        border-bottom: .06rem solid var(--light-green);
     }
 }

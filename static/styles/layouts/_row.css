@@ -1,0 +1,7 @@
+.container {
+    min-width: 100vw;
+    min-width: 100svh;
+    &.container--overflow {
+        overflow-x: visible;
+    }
+}

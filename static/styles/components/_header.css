@@ -1,0 +1,14 @@
+.logo  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.25rem;
+    padding-right: 5rem;
+    & span {
+        text-transform: lowercase;
+        font-size: 5.62rem;
+    }
+    & p {
+        margin-top: .62rem;
+    }
+}

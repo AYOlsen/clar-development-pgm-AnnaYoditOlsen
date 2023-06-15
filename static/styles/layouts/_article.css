@@ -1,11 +1,15 @@
+body {
+    overflow-x: hidden;
+}
+
 .background-color {
-    padding-bottom: 150px;
+    padding-bottom: 9.37rem;
 }
 
 .bg--light {
     background-color: var(--light);
     color: var(--blue);
-    padding-bottom: 0px;
+    padding-bottom: 0rem;
 }
 
 .bg--blue {
@@ -16,6 +20,9 @@
 .bg--green {
     background-color: var(--dark-green);
     color: var(--light-green);
+    & > div {
+        align-items: center;
+    }
 }
 
 .bg--brown {
@@ -25,6 +32,7 @@
 
 .bg--yellow {
     background-color: var(--yellow);
-    padding-top: 100px;
+    padding-top: 6.25rem;
     height: 100vh;
+    height: 100svh;
 }

@@ -1,14 +1,18 @@
 @import url('./abstracts/_variables.css');
 
 @import url('./base/_typography.css');
-@import url('./base/_intro.css');
 
 @import url('./components/_card.css');
 @import url('./components/_quote.css');
 @import url('./components/_text-block.css');
-@import url('./components/_title.css');
-@import url('./components/_member.css');
+@import url('./components/_headings.css');
+@import url('./components/_border-box.css');
 @import url('./components/_mouse.css');
+@import url('./components/_header.css');
+@import url('./components/_title.css');
 
 @import url('./layouts/_article.css');
-
+@import url('./layouts/_column.css');
+@import url('./layouts/_row.css');
+@import url('./layouts/_loading.css');
+@import url('./layouts/_contact.css');

@@ -1,27 +1,8 @@
-.title {
-    height: auto;
-    line-height: 1;
-    padding: 20px 10px;
-    & > span {
-        display: block;
-        overflow: hidden;
-        font-size: 8rem;
-        & span {
-            display: inline-block;
-            transform: translateY(100%);
-        }
-    }
-    & span:nth-child(even) {
-        font-family: 'Canela Light Italic';
-        display: flex;
-        justify-content: flex-end;
-    }
-}
-
-.title--bg-white {
-    float: right;
-}
-
-.title--center {
-    margin: 0 auto;
+.brand {
+    font-size: 14.37rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-top: -12.5rem;
+    background-color: var(--light);
+    z-index: 1;
 }

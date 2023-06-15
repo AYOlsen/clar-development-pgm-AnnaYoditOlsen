@@ -1,8 +1,8 @@
 .mouse {
     display: block;
     position: fixed;
-    width: 30px;
-    height: 30px;
+    width: 1.87rem;
+    height: 1.87rem;
     background-color: var(--blue);
     border-radius: 50%;
     z-index: 99;
