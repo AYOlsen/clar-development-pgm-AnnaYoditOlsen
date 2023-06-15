@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 
 const slideInUp = () => {
-    const $triggers = document.querySelectorAll('.title');
+    const $triggers = document.querySelectorAll('.slide-in');
 
     const slideInCallback = (entries, observer) => {
         entries.forEach((entry) => {

@@ -1,36 +1,27 @@
-import { gsap } from 'gsap';
+import gsap from 'gsap';
 
-const scale = () => {
-    const $triggers = document.querySelectorAll('.image');
+const scaleAnimation = () => {
+    const $trigger = document.querySelectorAll('svg');
+    const $circles = document.querySelectorAll('[data-animation="scale"] circle');
 
-    const scaleCallback = (entries, observer) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                const $circles = document.querySelectorAll('[data-animation="scale"] circle');
-    
-            gsap.fromTo($circles, 
-                {scale: 0},
-                {
+    $circles.forEach((element) => {
+        gsap.fromTo(
+            element,
+            {
+                scale: 0
+            },
+            {
                 scale: 1,
-                stagger: 0.2
-                });
-    
-            observer.unobserve(entry.target);
+                stagger: 0.2,
+                scrollTrigger: {
+                    trigger: $trigger,
+                    start: 'top 80%',
+                    end: 'bottom top',
+                    toggleActions: 'play none none reverse',
+                }
             }
-        });
-    };
-    
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1,
-    };
-    
-    const observer = new IntersectionObserver(scaleCallback, observerOptions);
-    
-    $triggers.forEach(($triggers) => {
-        observer.observe($triggers);
+        );
     });
-}
+};
 
-export default scale;
+export default scaleAnimation;

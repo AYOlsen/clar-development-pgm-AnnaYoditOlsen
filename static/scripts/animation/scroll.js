@@ -14,6 +14,5 @@ gsap.to($scrollElements, {
         scrub: true,
         pin: $scrollElements,
         pinSpacing: false,
-        markers: true
     }
 });
